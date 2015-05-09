@@ -407,12 +407,12 @@
       setTimeout(function() {
 	  	window.jimComments.updateComments();
     	if($target.is("#simulation")) {
-    	  $target.trigger("loadcomponent");
-    	  $navigationTree.trigger("load", [urlHistory.getActive().url]);
-    	  $target.find(".pageload").trigger("pageload");
     	  if(window.jimMobile && !jimUtil.isMobileDevice()) {
             jimMobile.loadComponents();
           }
+    	  $target.trigger("loadcomponent");
+    	  $navigationTree.trigger("load", [urlHistory.getActive().url]);
+    	  $target.find(".pageload").trigger("pageload");
     	  jimUtil.calculateMasterMinSize($target);
       	  if(typeof(annotation) !== "undefined") { annotation.load(); }
     	}

@@ -291,6 +291,9 @@
             } else if ($firer.closest(".master").length) {
               if(typeof(target) === "string") {
                 $target = $firer.closest(".master").find(target.substring(target.indexOf(" ") + 1)); /* cut off master reference (must come first) */
+                if($target.closest(".shapewrapper").length >0 && $target.closest(".content").length==0){  //get shapewrapper again  
+                    var $target = $target.closest(".shapewrapper");
+                }
               } else if (jimUtil.isArray(target)) {
                 $target = $firer.closest(".master").find(target.join(","));
               }
