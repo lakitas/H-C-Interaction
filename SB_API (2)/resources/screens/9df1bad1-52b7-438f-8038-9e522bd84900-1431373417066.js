@@ -1,5 +1,5 @@
 jQuery("#simulation")
-  .on("click", ".s-068c35a3-a3eb-4a0e-b3fd-d826c3f09439 .click", function(event, data) {
+  .on("click", ".s-9df1bad1-52b7-438f-8038-9e522bd84900 .click", function(event, data) {
     var jEvent, jFirer, cases;
     if(data === undefined) { data = event; }
     jEvent = jimEvent(event);
@@ -109,7 +109,7 @@ jQuery("#simulation")
                   "action": "jimNavigation",
                   "parameter": {
                     "isexternal": true,
-                    "target": "\n              \n              \n              \n              http://www.aueb.gr/pages/didaktiko/index.php\n              \n            \n              \n            \n              \n            \n              \n            ",
+                    "target": "\n              \n              \n              \n              \n              http://www.aueb.gr/pages/news/anakoinoseis_list.php?catid=31\n              \n            \n              \n            \n              \n            \n              \n            \n              \n            ",
                     "popup": {
                       "width": 200,
                       "height": 200,

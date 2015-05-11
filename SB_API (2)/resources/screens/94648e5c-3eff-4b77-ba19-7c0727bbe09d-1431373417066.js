@@ -109,7 +109,7 @@ jQuery("#simulation")
                   "action": "jimNavigation",
                   "parameter": {
                     "isexternal": true,
-                    "target": "\n              \n              \n              \n              http://www.aueb.gr/pages/spoudes/index.php\n              \n            \n              \n            \n              \n            \n              \n            ",
+                    "target": "\n              \n              \n              \n              \n              http://www.aueb.gr/pages/spoudes/index.php\n              \n            \n              \n            \n              \n            \n              \n            \n              \n            ",
                     "popup": {
                       "width": 200,
                       "height": 200,
